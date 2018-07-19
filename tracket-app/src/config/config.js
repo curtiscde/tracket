@@ -1,0 +1,6 @@
+const dev = {
+    auth0: {
+
+    }
+}
+
