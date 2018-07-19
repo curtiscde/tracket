@@ -11,8 +11,8 @@ class App extends Component {
         <NavBar />
         <BrowserRouter>
         <div>
-          <Route path="/" render={(props) => <Login {...props} />} />
-          <Route path="/callback" render={(props) => <Callback {...props} />} />
+          <Route exact path="/" render={(props) => <Login {...props} />} />
+          <Route exact path="/callback" render={(props) => <Callback {...props} />} />
         </div>
         </BrowserRouter>
       </div>
